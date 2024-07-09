@@ -1,0 +1,20 @@
+URL
+http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
+
+
+
+Response Structure
+{
+  "id": 10001,
+  "from": "USD",
+  "to": "INR",
+  "conversionMultiple": 65.00,
+  "quantity": 10,
+  "totalCalculatedAmount": 650.00,
+  "environment": "8000 instance-id"
+}
+
+2024-07-08T20:03:21.034Z  INFO [currency-conversion,2a82b74b456dbf8e0cd5c712f969058c,64898fac0a484d8f] 
+1 --- [currency-conversion] [nio-8100-exec-9] 
+[2a82b74b456dbf8e0cd5c712f969058c-64898fac0a484d8f] c.i.m.c.CurrencyConversionController     : 
+calculateCurrencyConversionFeign called with USD to INR with 10
