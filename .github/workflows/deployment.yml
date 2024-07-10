@@ -33,7 +33,7 @@ jobs:
     
     - name: Push Docker image to GitHub Container Registry
       run: |
-        docker build . --tag ghcr.io/karimdevwm/currency-conversion-service:latest
+        docker build -t ghcr.io/karimdevwm/currency-conversion-service:latest .
         docker push ghcr.io/karimdevwm/currency-conversion-service:latest
 
     # - name: Push Docker image to GitHub Container Registry
