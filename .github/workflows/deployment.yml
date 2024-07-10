@@ -36,5 +36,4 @@ jobs:
     - name: Push Docker image to GitHub Container Registry
       run: |
         IMAGE_NAME=ghcr.io/karimdevwm/currency-conversion-service:latest
-        docker tag ${IMAGE_NAME} ghcr.io/karimdevwm/currency-conversion-service:latest
         docker push ghcr.io/karimdevwm/currency-conversion-service:latest
