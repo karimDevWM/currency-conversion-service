@@ -14,4 +14,4 @@ RUN ./mvnw package -DskipTests
 EXPOSE 8100
 
 # Run the jar file
-CMD ["java", "-jar", "target/currency-conversion-service-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "currency-conversion-service-0.0.1-SNAPSHOT.jar"]
