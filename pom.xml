@@ -115,7 +115,7 @@
 				<!-- <version>3.3.0</version> -->
 				<configuration>
 					<image>
-						<name>karim2devops/mmv2-${project.artifactId}:${project.version}</name>
+						<name>ghcr.io/karimdevwm/mmv2-${project.artifactId}:${project.version}</name>
 					</image>
 					<source>21</source>
 					<target>21</target>
