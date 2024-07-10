@@ -37,6 +37,6 @@ jobs:
 
       - name: Push Docker image to GHCR
         run: |
-          IMAGE_NAME=ghcr.io/${{ github.repository }}/currency-conversion-service:latest
+          IMAGE_NAME=ghcr.io/karimdevwm/currency-conversion-service:latest
           docker tag currency-conversion-service:latest $IMAGE_NAME
           docker push $IMAGE_NAME
